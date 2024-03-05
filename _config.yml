@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+title: ProyectoRonald
+description: Este es el Proyecto de Ronald
+
+plugins:
+  - jekyll-seo-tag
