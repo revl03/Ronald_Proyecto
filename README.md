@@ -1,34 +1,33 @@
-# Proyecto Ronald
-
+# Proyecto de Calculadora
+#Autor: Ronald Vaca
 > **Warning**
-> El proyecto contiene un **jar**.
+> El proyecto contiene un archivo **jar**.
 
 ## Calculadora Normal
 
-Calculadora Normal ...
+Calculadora Normal es una ventana en la que se pueden realizar operaciones matemáticas básicas 
 
-- Contiene ..
+- Contiene un menu para ir a la calculadora cientifica y a la calculadora de conversiones
 
-![](media/Calc1.png) 
+![](media/calculadora1.png) 
 
 
 ## Calculadora Científica
 
-La **calculadora científica** realiza operaciones trigonométricas y exponenciales o porcentajes.
+**Calculadora científica**
+Calculadora Científica es una ventana que realiza operaciones trigonométricas y exponenciales o porcentajes. 
+- Contiene un menú superior con dos entradas de *Calculadoras*, *Edición* y *Ayuda*.
+- Además cuenta con botones que permiten guardar datos en memoria, y mostrarlos por pantalla.
+
+![](media/calculadora2.png)
+
+## Calculadora de Conversiones
+
+Calculadora de conversiones es una ventana que realiza conversiones de Monedas, Longitud y Peso
 
 - Contiene un menú superior con dos entradas de *Calculadoras*, *Edición* y *Ayuda*.
-- A demás utiliza la funcion de guardar datos en memoria, y la de mostrarlos por pantalla.
-- Contiene un **historial** de operaciones que utiliza un *listView* para almacenarlos.
+- Contiene 3 *combobox* que muestran el tipo de conversión que deseas realizar, la conversión de origen y de destion.
+- Podemos elegir que tipos de *conversiones* mostrar desde una **ventana modal** a la que podremos acceder desde el menú *Edición*.
+- La *Conversión de monedas* las realiza mediante una API que proporciona un valor a cada tipo de moneda y devuelve el valor de la moneda que quieres **Convertir**
 
-![](media/Calc2.png) ![](media/CalcP.png)
-
-## Calculadora Conversiones
-
-El *sistema de conversiones* contiene un *Combobox* principal para seleccionar el método de conversión; con 3 tipos de conversiones, incluye la monetaria, longitud y temperatura. 
-
-- Contiene un menú superior con dos entradas de *Calculadoras*, *Edición* y *Ayuda*.
-- Contiene dos *combobox* de valor de origen y valor destino.
-- Para las conversiones monetarias fija el *valor de conversión* desde otra **ventana modal** que se abre desde el menú *Edición*.
-- Contiene un **historial** de operaciones que utiliza un *listView* para almacenarlos.
-
-  ![](media/Calc3.png)
+  ![](media/calculadora3.png)  ![](media/calculadora4.png)
